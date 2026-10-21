@@ -32,7 +32,7 @@ st.set_page_config(
 NUM_CLASSES = 200
 IMAGE_SIZE = 224
 DROPOUT = 0.5
-WEIGHTS_DIR = Path(__file__).parent / "weights"
+WEIGHTS_DIR = Path(__file__).parent / "Weights"
 
 MODEL_REGISTRY = {
     "Baseline (Full)": {
